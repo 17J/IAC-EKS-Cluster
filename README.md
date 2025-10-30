@@ -11,7 +11,7 @@ Ensure the following are installed and configured before starting:
 - **AWS CLI**: Version 2.x. [Install guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
 - **Kubectl**: Compatible with your EKS cluster version (e.g., 1.30). [Install guide](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
 - **Terraform CLI**: Version 1.x (recommended: 1.5 or later). [Install guide](https://developer.hashicorp.com/terraform/install).
-- **AWS IAM User**: With programmatic access and sufficient permissions (e.g., `AdministratorAccess` or a custom policy with EKS, VPC, IAM, and EC2 permissions).
+- **AWS IAM User**: With programmatic access and sufficient permissions (e.g., a custom policy with EKS, VPC, IAM, and EC2 permissions).
 - **AWS Credentials**: Configured via `~/.aws/credentials` or environment variables:
   ```bash
   export AWS_ACCESS_KEY_ID="your-access-key"
