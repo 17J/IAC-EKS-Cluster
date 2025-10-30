@@ -51,7 +51,7 @@ Navigate to your Terraform project directory containing the EKS configuration (e
 Example directory setup:
 
 ```bash
-cd Terraform-Code-For-AWS-EKS-Cluster
+cd IAC-EKS-Cluster
 ```
 
 Ensure your Terraform configuration includes:
